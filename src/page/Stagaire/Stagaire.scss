@@ -1,0 +1,45 @@
+@import "~bootstrap/scss/bootstrap";
+.container{
+color: #999;
+.table{
+
+   border-style:double;
+   th{
+    color: #999;
+    align-items: center;
+    font-size: 15px;
+   
+  }
+ .trcolone
+    {
+      font-size: 13px;
+      font-family: 'Times New Roman';
+      
+    }
+   }
+   
+
+.items{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+ 
+    .item{
+        display: flex;
+       padding: 20px;
+       cursor:pointer;
+       color: #999;
+       &:hover
+       {
+           background-color: #ece8ff;
+       }
+   
+    }  
+       .icons{
+        font-size: 25px;
+        color:#ac97ff;
+    }
+}
+}

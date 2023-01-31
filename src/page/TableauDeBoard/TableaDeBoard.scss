@@ -1,0 +1,31 @@
+.containerbox{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 15px;
+ .ite{
+    height: 300px;
+    width: 200px;
+    margin: 5px;
+  font-size: 15px;
+  
+ border-radius: 10px;
+ border: 1px solid #19f56d;
+
+ }
+ .cntbtn{
+   width: 500px;
+   display: grid;
+  
+   .cntbtn1{
+      margin: 10px;
+     background-color: #1980f5;
+     border: none;
+     border-radius: 10px;
+     font-family: 'Courier New', Courier, monospace   ;
+    color: #f3f5f7;
+   }
+ }
+    
+}
